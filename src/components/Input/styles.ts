@@ -24,14 +24,23 @@ export const Container = styled.div<ContainerProps>`
   ${props =>
     props.isFocused &&
     css`
+<<<<<<< Updated upstream
       color: #ff9000;
       border-color: #ff9000;
+=======
+      color: #a682f9;
+      border-color: #a682f9;
+>>>>>>> Stashed changes
     `}
 
   ${props =>
     props.isFilled &&
     css`
+<<<<<<< Updated upstream
       color: #ff9000;
+=======
+      color: #a682f9;
+>>>>>>> Stashed changes
     `}
 
   input {

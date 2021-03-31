@@ -39,7 +39,7 @@ const Input: React.FC<InputProps> = ({ name, icon: Icon, ...rest }) => {
       ref: inputRef.current,
       path: 'value',
     });
-  }, [fieldName, inputRef.current]);// eslint-disable-line
+  }, [fieldName, inputRef.current]); // eslint-disable-line
 
   return (
     <Container isFilled={isFilled} isFocused={isFocused}>
